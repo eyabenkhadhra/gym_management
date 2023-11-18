@@ -1,0 +1,49 @@
+/* Style pour le conteneur principal du footer */
+.footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Style pour le contenu du footer */
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* Style pour le logo */
+  .logo img {
+    height: 50px;
+  }
+  
+  /* Style pour la section "About Us" */
+  .about-us {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-us .title {
+    margin-right: 10px;
+  }
+  
+  .btn-about-us {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn-about-us:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style pour le titre "Gym Management Web Site" */
+  .footer h5 {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin-top: 10px;
+  }
+  

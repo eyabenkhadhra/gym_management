@@ -1,0 +1,70 @@
+/* Style pour le titre "Members List" */
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Style pour le lien "Add Member" */
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+/* Style pour le tableau */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style pour l'en-tête du tableau */
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Style pour les cellules de l'en-tête du tableau */
+th {
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style pour les lignes du corps du tableau */
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* Style pour les cellules du corps du tableau */
+td {
+  padding: 10px;
+}
+
+/* Style pour le lien "Edit" dans la colonne "Actions" */
+a[routerLink^="/members/edit/"] {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #2196f3;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Style pour le bouton "Delete" dans la colonne "Actions" */
+button {
+  padding: 5px 10px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style au survol du bouton "Delete" */
+button:hover {
+  background-color: #d32f2f;
+}

@@ -1,0 +1,16 @@
+<h2>{{ member.id ? 'Edit' : 'Add' }} Member</h2>
+<form (ngSubmit)="saveMember()">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" [(ngModel)]="member.name" name="name" required>
+  </div>
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" [(ngModel)]="member.age" name="age" required>
+  </div>
+  <div>
+    <label for="address">Address:</label>
+    <textarea id="address" [(ngModel)]="member.address" name="address" required></textarea>
+  </div>
+  <button type="submit">{{ member.id ? 'Save' : 'Add' }}</button>
+</form>

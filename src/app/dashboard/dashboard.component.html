@@ -1,0 +1,18 @@
+
+<div class="container">
+  <app-header></app-header>
+  <section>
+    <img src="assets/images/gym1.png" class="images" data-original-title="" title="">
+  </section>
+<div class="home">
+  <div class="hero-section">
+    <h1>Welcome to our gym management site</h1>
+    <p>Discover our services and join us today!</p>
+    <button class="btn-about" (click)="showVideo = true">Learn More</button>
+    <div *ngIf="showVideo" class="video-container">
+      <iframe width="560" height="315" src="assets/video/FIGHT THROUGH THE PAIN - GYM MOTIVATION 🔥.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
+</div>

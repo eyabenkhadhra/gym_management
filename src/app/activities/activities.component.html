@@ -1,0 +1,8 @@
+<div class="activities">
+  <h2>Activities</h2>
+  <div class="activity" *ngFor="let activity of activities">
+    <img [src]="activity.image" alt="{{ activity.name }}" class="activity-image">
+    <h3>{{ activity.name }}</h3>
+    <p>{{ activity.description }}</p>
+  </div>
+</div>
